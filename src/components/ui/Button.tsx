@@ -19,11 +19,12 @@ const buttonVariants =  cva(
         sm: 'h-9 px-2',
         lg: 'h-11 px-8'
       },
+    },
       defaultVariants: {
         variant: 'default',
         size:'default',
       },
-    },
+    
   },
 )
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>, VariantProps<typeof buttonVariants> {
